@@ -14,7 +14,7 @@
 	<name>authentication-authorization-service</name>
 	<description>Service for Authentication and Authorization</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>s
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
@@ -22,6 +22,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.netflix.eureka2/eureka-server -->
+		<dependency>
+			<groupId>com.netflix.eureka2</groupId>
+			<artifactId>eureka-server</artifactId>
+			<version>2.0.0-DP4</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -38,6 +45,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
