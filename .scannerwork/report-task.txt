@@ -1,0 +1,6 @@
+projectKey=authentication-authorization-service
+serverUrl=http://localhost:9000
+serverVersion=9.6.0.59041
+dashboardUrl=http://localhost:9000/dashboard?id=authentication-authorization-service
+ceTaskId=AYLKXCeprMaLbgWn6GcP
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYLKXCeprMaLbgWn6GcP
